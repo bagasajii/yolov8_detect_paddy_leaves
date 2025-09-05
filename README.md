@@ -11,14 +11,16 @@ on a **Raspberry Pi 5**.
    git clone https://github.com/<username>/yolov8_detect_paddy_leaves.git
    cd yolov8_detect_paddy_leaves
 2. Install Dependencies
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Run Detect camera
-python3 detect_cam.py
+   ```bash
+   python3 detect_cam.py
 
-4. Run detection on a single images : 
-python3 detect_img.py --source test.jpg
+5. Run detection on a single images
+   ```bash 
+   python3 detect_img.py --source test.jpg
 
 📝 Notes
 
